@@ -1,4 +1,4 @@
-! Dylans Xresources
+! Looks
 URxvt.font: xft:Roboto Mono:size=12 
 URxvt.boldFont: xft:Roboto Mono:style=bold:size=12
 URxvt.internalBorder: 75
@@ -12,8 +12,6 @@ URxvt*skipBuiltinGlyphs: true
 URxvt*scrollWithBuffer: false
 URxvt*skipScroll: true
 URxvt*jumpScroll: true
-
-! Disable Perl for performance reasons.
 URxvt.perl-ext: eval
 URxvt.perl-ext-common: eval
 
@@ -38,8 +36,7 @@ rofi.lines: 5
 rofi.width: 20
 rofi.bw: 0
 
-!!COLORS
-! special
+! Colors
 *.foreground:   #565e65
 *.background:   #f3f4f5
 *.cursorColor:  #565e65

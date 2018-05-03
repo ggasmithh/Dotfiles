@@ -1,30 +1,21 @@
 [bar/bar]
 background = ${xrdb:color15:#222}
 foreground = ${xrdb:color0:#222}
-
 enable-ipc=true
-
 height = 45
 width = 14%
 offset-x = 2%
 offset-y = 2%
-
 bottom = true
 fixed-center = true
 font-0 = Roboto:size=11;1
 font-1 = Font Awesome 5 Free:style=Regular:size=12;
 font-2 = Font Awesome 5 Free:style=Solid:size=12;
-
-
 modules-center = date
 module-margin = 2
-
 override-redirect = false
-
 padding = 10
 radius = 4
-wm-name = bar
-
 
 [bar/bar2]
 inherit = bar/bar
@@ -44,7 +35,6 @@ label =  %date%          %time%
 type = internal/xbacklight
 label = %percentage%%  
 
-
 [module/battery]
 type = internal/battery
 battery = BAT0
@@ -58,7 +48,6 @@ ramp-capacity-1 =
 ramp-capacity-2 =
 ramp-capacity-3 =
 ramp-capacity-4 =
-
 
 [module/wlan]
 type = internal/network

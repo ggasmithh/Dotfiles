@@ -66,8 +66,6 @@
       <name>2</name>
       <name>3</name>
       <name>4</name>
-      <name>5</name>
-      <name>6</name>
     </names>
     <popupTime>0</popupTime>
   </desktops>
@@ -109,21 +107,6 @@
         <to>4</to>
       </action>
     </keybind>
-    <keybind key="W-5">
-      <action name="GoToDesktop">
-        <to>5</to>
-      </action>
-    </keybind>
-    <keybind key="W-6">
-      <action name="GoToDesktop">
-        <to>6</to>
-      </action>
-    </keybind>
-    <keybind key="W-7">
-      <action name="GoToDesktop">
-        <to>6</to>
-      </action>
-    </keybind>
     <!-- Send program to desktop by number -->
     <keybind key="W-S-1">
       <action name="SendToDesktop">
@@ -153,20 +136,6 @@
         <follow>no</follow>
       </action>
     </keybind>
-    <keybind key="W-S-5">
-      <action name="SendToDesktop">
-        <to>5</to>
-        <wrap>no</wrap>
-        <follow>no</follow>
-      </action>
-    </keybind>
-    <keybind key="W-S-6">
-      <action name="SendToDesktop">
-        <to>6</to>
-        <wrap>no</wrap>
-        <follow>no</follow>
-      </action>
-    </keybind>
     <keybind key="W-o">
       <action name="ToggleOmnipresent"/>
     </keybind>
@@ -178,11 +147,6 @@
     </keybind>
     <keybind key="W-m">
       <action name="ToggleFullscreen"/>
-    </keybind>
-    <keybind key="W-v">
-      <action name="Execute">
-        <command>tog Polybar</command>
-      </action>
     </keybind>
     <keybind key="W-q">
       <action name="Close"/>
@@ -235,16 +199,6 @@
     <keybind key="W-P">
       <action name="Execute">
         <command>scr</command>
-      </action>
-    </keybind>
-    <keybind key="W-w">
-      <action name="Execute">
-        <command>wal -q --backend colorz -i ~/Pictures/Wallpapers -o wal-set</command>
-      </action>
-    </keybind>
-    <keybind key="W-e">
-      <action name="Execute">
-        <command>wal -q --backend colorz -i ~/Pictures/Wallpapers -o wal-set -l</command>
       </action>
     </keybind>
     <keybind key="W-Left">
