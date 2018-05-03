@@ -1,0 +1,80 @@
+[bar/bar]
+background = ${xrdb:color15:#222}
+foreground = ${xrdb:color0:#222}
+
+enable-ipc=true
+
+height = 45
+width = 14%
+offset-x = 2%
+offset-y = 2%
+
+bottom = true
+fixed-center = true
+font-0 = Roboto:size=11;1
+font-1 = Font Awesome 5 Free:style=Regular:size=12;
+font-2 = Font Awesome 5 Free:style=Solid:size=12;
+
+
+modules-center = date
+module-margin = 2
+
+override-redirect = false
+
+padding = 10
+radius = 4
+wm-name = bar
+
+
+[bar/bar2]
+inherit = bar/bar
+modules-center = backlight volume wlan wired-network battery
+height = 45px
+width = 19%
+offset-x = 79%
+
+[module/date]
+type = internal/date
+interval = 60
+date = %a %d %b
+time = %l:%M %p
+label =  %date%          %time%
+
+[module/backlight]
+type = internal/xbacklight
+label = %percentage%%  
+
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+poll-interval = 0
+format-discharging = <label-discharging>  <ramp-capacity>
+format-full = <label-full>  <ramp-capacity>
+format-charging = <label-charging>  <ramp-capacity>  
+ramp-capacity-0 =
+ramp-capacity-1 =
+ramp-capacity-2 =
+ramp-capacity-3 =
+ramp-capacity-4 =
+
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 5
+label-connected = %essid%  
+
+[module/wired-network]
+type = internal/network
+interface = enp0s31f6
+label-connected = Wired Connection
+
+[module/volume]
+type = internal/volume
+format-volume = <label-volume>  <ramp-volume>
+format-muted = 0%  
+ramp-volume-0 =
+ramp-volume-1 =
+ramp-volume-2 =

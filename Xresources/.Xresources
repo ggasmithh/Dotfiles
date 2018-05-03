@@ -1,0 +1,78 @@
+! Dylans Xresources
+URxvt.font: xft:Roboto Mono:size=12 
+URxvt.boldFont: xft:Roboto Mono:style=bold:size=12
+URxvt.internalBorder: 75
+URxvt.geometry: 55x15
+URxvt.scrollBar: false
+
+! Performance
+URxvt*buffered: false
+URxvt*saveLines: 0
+URxvt*skipBuiltinGlyphs: true
+URxvt*scrollWithBuffer: false
+URxvt*skipScroll: true
+URxvt*jumpScroll: true
+
+! Disable Perl for performance reasons.
+URxvt.perl-ext: eval
+URxvt.perl-ext-common: eval
+
+! DPI/Font
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+! Rofi
+rofi.font: Roboto 25
+rofi.separator-style: none
+rofi.scrollbar-width: 0
+rofi.location: 1
+rofi.yoffset: 120
+rofi.xoffset: 120
+rofi.padding: 40
+rofi.lines: 5
+rofi.width: 20
+rofi.bw: 0
+
+!!COLORS
+! special
+*.foreground:   #565e65
+*.background:   #f3f4f5
+*.cursorColor:  #565e65
+
+! black
+*.color0:       #1c2023
+*.color8:       #747c84
+
+! red
+*.color1:       #c7ae95
+*.color9:       #c7ae95
+
+! green
+*.color2:       #95c7ae
+*.color10:      #95c7ae
+
+! yellow
+*.color3:       #aec795
+*.color11:      #aec795
+
+! blue
+*.color4:       #ae95c7
+*.color12:      #ae95c7
+
+! magenta
+*.color5:       #c795ae
+*.color13:      #c795ae
+
+! cyan
+*.color6:       #95aec7
+*.color14:      #95aec7
+
+! white
+*.color7:       #c7ccd1
+*.color15:      #f3f4f5
+

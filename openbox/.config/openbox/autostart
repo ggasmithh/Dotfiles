@@ -1,0 +1,5 @@
+compton -c &
+
+polybar bar &
+
+exec polybar bar2
