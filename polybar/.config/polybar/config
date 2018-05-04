@@ -19,10 +19,21 @@ radius = 4
 
 [bar/bar2]
 inherit = bar/bar
-modules-center = backlight volume wlan wired-network battery
+modules-center = backlight volume wlan wired-network battery menu-apps
 height = 45px
 width = 19%
 offset-x = 79%
+
+[module/menu-apps]
+type = custom/menu
+expand-right = false
+
+label-open = 
+label-close = 
+label-separator = " " 
+
+menu-0-0 = 
+menu-0-0-exec = sudo shutdown now
 
 [module/date]
 type = internal/date
@@ -63,7 +74,7 @@ label-connected = Wired Connection
 [module/volume]
 type = internal/volume
 format-volume = <label-volume>  <ramp-volume>
-format-muted = 0%  
+format-muted = 0%   
 ramp-volume-0 =
 ramp-volume-1 =
 ramp-volume-2 =
