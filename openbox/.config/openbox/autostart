@@ -1,3 +1,5 @@
+amixer sset Master 0%
+
 compton -c &
 
 polybar bar &

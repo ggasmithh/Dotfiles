@@ -8,9 +8,3 @@ window.handle.width: 0
 window.client.padding.width: 0
 border.width: 0
 
-# Title
-padding.width: 50
-padding.height: 20
-window.*.title.bg: Solid Flat
-window.*.*.bg: Parentrelative
-window.label.text.justify: center

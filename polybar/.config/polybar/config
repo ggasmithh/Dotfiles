@@ -19,7 +19,7 @@ radius = 4
 
 [bar/bar2]
 inherit = bar/bar
-modules-center = backlight volume wlan wired-network battery menu-apps
+modules-center =volume wlan wired-network battery menu-apps
 height = 45px
 width = 19%
 offset-x = 79%
@@ -41,10 +41,6 @@ interval = 60
 date = %a %d %b
 time = %l:%M %p
 label =  %date%          %time%
-
-[module/backlight]
-type = internal/xbacklight
-label = %percentage%%  
 
 [module/battery]
 type = internal/battery
@@ -69,7 +65,7 @@ label-connected = %essid%  
 [module/wired-network]
 type = internal/network
 interface = enp0s31f6
-label-connected = Wired Connection
+label-connected = Wired 
 
 [module/volume]
 type = internal/volume
