@@ -21,7 +21,7 @@
   <theme>
     <name>round</name>
     <titleLayout>LC</titleLayout>
-    <cornerRadius>8</cornerRadius>
+    <cornerRadius>4</cornerRadius>
     <keepBorder>no</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
@@ -421,7 +421,7 @@
     <position>TopLeft</position>
     <floatingX>57</floatingX>
     <floatingY>0</floatingY>
-    <stacking>Above</stacking>
+    <stacking>Below</stacking>
     <direction>Vertical</direction>
     <noStrut>no</noStrut>
     <autoHide>no</autoHide>
