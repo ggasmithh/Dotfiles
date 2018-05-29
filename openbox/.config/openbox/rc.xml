@@ -191,15 +191,10 @@
         <command>amixer sset Master 2%-</command>
       </action>
     </keybind>
-    <keybind key="XF86Display">
-      <action name="Execute">
-        <command>compton-toggle</command>
-      </action>
-    </keybind>
-    <keybind key="W-P">
-      <action name="Execute">
-        <command>scr</command>
-      </action>
+    <keybind key="W-w">	
+	    <action name="Execute">
+		    <command>urxvt -e sh -c "wicd-curses"</command>
+	    </action>
     </keybind>
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
