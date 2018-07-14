@@ -2,18 +2,20 @@
 URxvt.font: xft:Roboto Mono:size=12
 URxvt.boldFont: xft:Roboto Mono:style=bold:size=12
 URxvt.internalBorder: 75
-URxvt.geometry: 55x15
 URxvt.scrollBar: false
 
 ! Performance
-URxvt*buffered: false
-URxvt*saveLines: 0
 URxvt*skipBuiltinGlyphs: true
-URxvt*scrollWithBuffer: false
-URxvt*skipScroll: true
-URxvt*jumpScroll: true
 URxvt.perl-ext: eval
 URxvt.perl-ext-common: eval
+
+!Functionality
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
 
 ! DPI/Font
 Xft.dpi: 96
