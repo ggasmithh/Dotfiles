@@ -24,7 +24,7 @@ modules-center = volume wlan wired-network battery menu-apps
 height = 45px
 width = 19%
 offset-x = 79%
-#tray-position = left
+tray-position = left
 #tray-padding = 4
 
 [module/menu-apps]
