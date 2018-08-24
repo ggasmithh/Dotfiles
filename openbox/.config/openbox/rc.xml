@@ -197,11 +197,6 @@
 				<command>amixer sset Master 2%-</command>
 			</action>
 		</keybind>
-		<keybind key="W-w">	
-			<action name="Execute">
-				<command>urxvt -e sh -c "wicd-curses"</command>
-			</action>
-		</keybind>
 		<keybind key="W-Left">
 			<action name="UnmaximizeFull"/>
 			<action name="MaximizeVert"/>
