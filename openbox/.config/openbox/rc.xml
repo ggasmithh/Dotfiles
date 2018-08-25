@@ -168,7 +168,7 @@
 				<command>urxvtc</command>
 			</action>
 		</keybind>
-		<keybind key="W-b">
+		<keybind key="W-w">
 			<action name="Execute">
 				<command>firefox</command>
 			</action>
