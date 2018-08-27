@@ -27,17 +27,6 @@ offset-x = 79%
 tray-position = left
 #tray-padding = 4
 
-[module/menu-apps]
-type = custom/menu
-expand-right = false
-
-label-open = 
-label-close = 
-label-separator = " " 
-
-menu-0-0 = 
-menu-0-0-exec = sudo shutdown now
-
 [module/date]
 type = internal/date
 interval = 60

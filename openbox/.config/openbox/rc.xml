@@ -179,6 +179,12 @@
 				<command>rofi -show run</command>
 			</action>
 		</keybind>
+		<keybind key="W-x">
+			<action name="Execute">
+				<name>shutdown</name>
+				<command>~/.local/bin/rofi-shutdown</command>
+			</action>
+		</keybind>
 		<keybind key="W-c">
 			<action name="MoveToCenter"/>
 		</keybind>
