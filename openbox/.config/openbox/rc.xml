@@ -173,19 +173,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
-      </action>
-    </keybind>
-    <keybind key="W-r">
-      <action name="Execute">
-        <name>rofi</name>
-        <command>rofi -show run</command>
-      </action>
-    </keybind>
-    <keybind key="W-x">
-      <action name="Execute">
-        <name>shutdown</name>
-        <command>~/.local/bin/rofi-shutdown</command>
+        <command>waterfox</command>
       </action>
     </keybind>
     <keybind key="W-c">
@@ -415,7 +403,7 @@
     <application class="*">
       <decor>no</decor>
     </application>
-    <application class="Firefox*">
+    <application class="Waterfox*">
       <desktop>2</desktop>
     </application>
     <application class="TelegramDesktop">
