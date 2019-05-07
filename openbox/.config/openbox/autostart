@@ -1,7 +1,7 @@
 amixer sset Master 0%
 
+hsetroot -solid "#0000FF" &
+
 compton -c &
 
-polybar bar &
-
-exec polybar bar2
+exec polybar bar
