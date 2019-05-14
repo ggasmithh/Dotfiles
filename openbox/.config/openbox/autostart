@@ -2,6 +2,8 @@ amixer sset Master 0%
 
 feh --bg-center ~/.local/share/backgrounds/rainforest.jpg &
 
-exec compton -cb
+compton -cb &
+
+exec polybar bar1
 
 
