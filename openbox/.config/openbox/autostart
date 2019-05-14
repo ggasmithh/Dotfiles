@@ -1,7 +1,7 @@
 amixer sset Master 0%
 
-hsetroot -solid "#0000FF" &
+feh --bg-center ~/.local/share/backgrounds/rainforest.jpg &
 
-compton -c &
+exec compton -cb
 
-exec polybar bar
+

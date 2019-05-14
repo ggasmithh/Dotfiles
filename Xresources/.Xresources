@@ -1,5 +1,5 @@
 ! Looks
-URxvt.font: xft:Menlo:size=12
+URxvt.font: xft:ypn envypn:size=12
 URxvt.internalBorder: 75
 URxvt.scrollBar: false
 
@@ -15,7 +15,6 @@ URxvt*scrollTtyKeypress: true
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
-
 ! DPI/Font
 Xft.dpi: 96
 Xft.autohint: 0
@@ -25,15 +24,7 @@ Xft.hintstyle: hintfull
 Xft.rgba: none
 Xft.lcdfilter: lcddefault
 
-! Rofi
-! rofi.font: Roboto 25
-! rofi.separator-style: none
-! rofi.scrollbar-width: 0
-! rofi.location: 1
-! rofi.yoffset: 120
-! rofi.xoffset: 120
-! rofi.padding: 40
-! rofi.lines: 5
-! rofi.width: 20
-! rofi.bw: 0
+! Colors
+*background: #000000
+*foreground: #FFFFFF
 
