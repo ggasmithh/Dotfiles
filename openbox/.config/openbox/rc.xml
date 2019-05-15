@@ -176,6 +176,11 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <keybind key="W-r">
+        <action name="Execute">
+            <command>rofi -show run -location 1 -font "ypn envypn 10"</command>
+        </action>
+    </keybind>
     <keybind key="W-c">
       <action name="MoveToCenter"/>
     </keybind>

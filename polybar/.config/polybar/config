@@ -5,8 +5,10 @@ bottom = true
 height = 27
 width = 100%
 
-background = #000000
-foreground = #ffffff
+background = ${xrdb:background}
+foreground = ${xrdb:foreground}
+highlight  = ${xrdb:color1}
+grey       = ${xrdb:color4}
 
 spacing = 1
 lineheight = 1
@@ -47,9 +49,9 @@ label-occupied-padding = 1
 label-empty-padding = 1
 label-urgent-padding = 1
 label-active-padding = 1
-label-active-foreground = #228b22
-label-urgent-foreground = #8b2222
-label-empty-foreground = #ffffff
+label-active-foreground = ${xrdb:color2}
+label-urgent-foreground = ${xrdb:color5}
+label-empty-foreground = ${xrdb:foreground}
 
 [module/alsa]
 type = internal/alsa
@@ -80,7 +82,7 @@ mapped = true
 interval = 10
 
 label-volume = vol: %percentage%
-label-muted = vol: x
+label-muted = vol:  x
 
 [module/time]
 type = internal/date
@@ -90,7 +92,7 @@ interval = 1.0
 
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
-date = %H:%M
+date = %I:%M %p
 
 ; if `date-alt` or `time-alt` is defined, clicking
 ; the module will toggle between formats

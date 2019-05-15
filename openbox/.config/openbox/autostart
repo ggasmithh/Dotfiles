@@ -4,6 +4,12 @@ feh --bg-center ~/.local/share/backgrounds/rainforest.jpg &
 
 compton -cb &
 
-exec polybar bar1
+polybar bar1 &
+
+urxvt &
+
+telegram-desktop &
+
+exec firefox
 
 
