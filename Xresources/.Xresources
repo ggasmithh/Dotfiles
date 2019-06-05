@@ -1,7 +1,5 @@
-#include "/home/garrett/.xcolors/deafened"
-
 ! Looks
-URxvt.font: xft:ypn envypn:size=12
+URxvt.font: xft:Source Code Pro:size=12
 URxvt.internalBorder: 75
 URxvt.scrollBar: false
 

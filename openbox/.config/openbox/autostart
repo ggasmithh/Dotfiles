@@ -1,6 +1,6 @@
 amixer sset Master 0%
 
-feh --bg-center ~/.local/share/backgrounds/rainforest.jpg &
+wal -R &
 
 compton -cb &
 
