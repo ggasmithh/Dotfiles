@@ -1,8 +1,8 @@
 amixer sset Master 0%
 
-wal -R &
-
 compton -cb &
+
+wal -R -l &
 
 polybar bar1 &
 

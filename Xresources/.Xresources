@@ -1,7 +1,9 @@
 ! Looks
-URxvt.font: xft:Source Code Pro:size=12
+URxvt.font: xft:'Fantasque Sans Mono':size=12
 URxvt.internalBorder: 75
 URxvt.scrollBar: false
+URxvt.letterSpace: -1
+URxvt.lineSpace: -1
 
 ! Performance
 URxvt*skipBuiltinGlyphs: true
@@ -24,30 +26,22 @@ Xft.hintstyle: hintfull
 Xft.rgba: none
 Xft.lcdfilter: lcddefault
 
-! Colors
-*.foreground:  	FOREGROUND
-*.background:  	BACKGROUND
-*.cursorColor: 	FOREGROUND
-*.color0:      	COLOR0
-*.color8:      	COLOR8
-*.color1:	COLOR1
-*.color9:	COLOR9
-*.color2:	COLOR2
-*.color10:	COLOR10
-*.color3:	COLOR3
-*.color11:	COLOR11
-*.color4:	COLOR4
-*.color12:	COLOR12
-*.color5:	COLOR5
-*.color13:	COLOR13
-*.color6:	COLOR6
-*.color14:	COLOR14
-*.color7:	COLOR7
-*.color15:	COLOR15
-
 ! Rofi
-rofi.color-window: BACKGROUND, BACKGROUND, BACKGROUND
-rofi.color-normal: BACKGROUND, FOREGROUND, BACKGROUND, BACKGROUND, COLOR1
-rofi.color-active: BACKGROUND, FOREGROUND, BACKGROUND, BACKGROUND, COLOR1
-rofi.color-urgent: BACKGROUND, FOREGROUND, BACKGROUND, BACKGROUND, COLOR1
+rofi.font: Fantasque Sans Mono 12
+rofi.separator-style: none
+rofi.scrollbar-width: 0
+rofi.location: 1
+rofi.yoffset: 100
+rofi.xoffset: 80
+rofi.padding: 40
+rofi.lines: 5
+rofi.width: 20
+rofi.bw: 0
+
+! Enables copy/paste with Ctrl-Shift-C/V
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
