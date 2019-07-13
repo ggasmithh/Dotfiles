@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+#include "/home/garrett/.xcolors/sweetlove"
+
+>>>>>>> parent of 1ef5cbd... Added color profiles
 ! Looks
 URxvt.font: xft:'Fantasque Sans Mono':size=12
 URxvt.internalBorder: 75
