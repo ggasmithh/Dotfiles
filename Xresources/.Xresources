@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-=======
-#include "/home/garrett/.xcolors/sweetlove"
+#include "/home/garrett/.xcolors/colorstar"
 
->>>>>>> parent of 1ef5cbd... Added color profiles
 ! Looks
 URxvt.font: xft:'Fantasque Sans Mono':size=12
 URxvt.internalBorder: 75
 URxvt.scrollBar: false
 URxvt.letterSpace: -1
 URxvt.lineSpace: -1
-
-! Performance
-URxvt*skipBuiltinGlyphs: true
-URxvt.perl-ext: eval
-URxvt.perl-ext-common: eval
 
 !Functionality
 URxvt*scrollTtyOutput: false

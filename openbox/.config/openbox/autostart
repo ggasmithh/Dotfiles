@@ -2,7 +2,7 @@ amixer sset Master 0%
 
 compton -cb &
 
-wal -R -l &
+feh --bg-fill ~/Pictures/wallpapers/field.jpg
 
 polybar bar1 &
 
