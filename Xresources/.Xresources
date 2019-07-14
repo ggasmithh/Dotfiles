@@ -1,7 +1,7 @@
 #include "/home/garrett/.xcolors/colorstar"
 
 ! Looks
-URxvt.font: xft:'Fantasque Sans Mono':size=12
+URxvt.font: xft:'Source Code Pro':size=12
 URxvt.internalBorder: 75
 URxvt.scrollBar: false
 URxvt.letterSpace: -1
