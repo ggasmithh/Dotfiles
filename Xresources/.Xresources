@@ -1,44 +1,94 @@
-#include "/home/garrett/.xcolors/colorstar"
+!Colors
+!------------------------------------
+#define basefg #c5c8c6
+#define basebg #1d1f21
+#define base0 #1d1f21			
+#define base1 #cc342b
+#define base2 #198844
+#define base3 #fba922
+#define base4 #3971ed
+#define base5 #a36ac7
+#define base6 #3971ed
+#define base7 #c5c8c6
+#define base8 #969896
+#define base9 #cc342b
+#define base10 #198844
+#define base11 #fba922
+#define base12 #3971ed
+#define base13 #a36ac7
+#define base14 #3971ed
+#define base15 #ffffff
 
-! Looks
-URxvt.font: xft:'Source Code Pro':size=12
-URxvt.internalBorder: 75
-URxvt.scrollBar: false
-URxvt.letterSpace: -1
-URxvt.lineSpace: -1
+!URxvt
+!------------------------------------
+*foreground:		basefg
+*background:		basebg
+*cursor:    		basefg
 
-!Functionality
-URxvt*scrollTtyOutput: false
-URxvt*scrollWithBuffer: true
-URxvt*scrollTtyKeypress: true
-URxvt.secondaryScreen: 1
-URxvt.secondaryScroll: 0
+*color0:   		base0 
+*color1:   		base1
+*color2:   		base2
+*color3:   		base3 
+*color4:   		base4 
+*color5:   		base5 
+*color6:   		base6 
+*color7:   		base7 
+*color8:   		base8 
+*color9:   		base9 
+*color10:  		base10 
+*color11:  		base11 
+*color12:  		base12 
+*color13:  		base13 
+*color14:  		base14 
+*color15:  		base15 
 
-! DPI/Font
-Xft.dpi: 96
-Xft.autohint: 0
-Xft.antialias: 1
-Xft.hinting: true
-Xft.hintstyle: hintfull
-Xft.rgba: none
-Xft.lcdfilter: lcddefault
+URxvt.font:		xft:FantasqueSansMono Nerd Font Mono:size=10
+URxvt.linespace:	0
+URxvt.letterSpace:	-1
+URxvt.scrollBar:	false
+URxvt.internalBorder:	15
+URxvt.cursorUnderline:	false
 
-! Rofi
-rofi.font: Fantasque Sans Mono 12
-rofi.separator-style: none
-rofi.scrollbar-width: 0
-rofi.location: 1
-rofi.yoffset: 100
-rofi.xoffset: 80
-rofi.padding: 40
-rofi.lines: 5
-rofi.width: 20
-rofi.bw: 0
+!URxvt.perl-ext-common:	default
 
-! Enables copy/paste with Ctrl-Shift-C/V
-URxvt.iso14755: false
-URxvt.iso14755_52: false
-URxvt.perl-ext-common: default,clipboard
-URxvt.keysym.Shift-Control-C: perl:clipboard:copy
-URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+!Rofi
+!------------------------------------
+rofi.color-window:	basebg, basefg
+
+rofi.color-normal:	basebg, basefg, base0, base1, basefg
+!rofi.color-active:	base3, base15, base0, base0, base3
+!rofi.color-urgent:	base0, base3, base0, base0, base3
+
+rofi.bw:		0
+rofi.font:		FantasqueSansMono Nerd Font 10
+rofi.columns:		1
+rofi.separator-style:	none
+rofi.hide-scrollbar:	true
+rofi.location:		1
+rofi.yoffset:		25
+rofi.xoffset:		25
+rofi.padding:		25
+rofi.fullscreen:	false
+rofi.width:		150
+rofi.lines:		0
+rofi.case-sensitive:	false
+
+Xft.autohint:		0
+Xft.lcdfilter:		lcddefault
+Xft.hintstyle:		hintslight
+Xft.hinting:		1
+Xft.rgba:		rgb
+Xft.dpi:		110		
+
+!2bwm
+!-------------------------------
+!twobwm.border_width:		5
+!twobwm.outer_border:		5
+!twobwm.focus_color:		base0
+!twobwm.unfocus_color:		base7
+!twobwm.fixed_color:		basebg
+!twobwm.unkill_color:		base8
+!twobwm.fixed_unkill_color:	base12
+!twobwm.outer_border_color:	base2
+!twobwm.inverted_colors:		true	
 
