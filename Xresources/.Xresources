@@ -1,24 +1,3 @@
-!Colors
-!------------------------------------
-#define basefg #c5c8c6
-#define basebg #1d1f21
-#define base0 #1d1f21			
-#define base1 #cc342b
-#define base2 #198844
-#define base3 #fba922
-#define base4 #3971ed
-#define base5 #a36ac7
-#define base6 #3971ed
-#define base7 #c5c8c6
-#define base8 #969896
-#define base9 #cc342b
-#define base10 #198844
-#define base11 #fba922
-#define base12 #3971ed
-#define base13 #a36ac7
-#define base14 #3971ed
-#define base15 #ffffff
-
 !URxvt
 !------------------------------------
 *foreground:		basefg
@@ -43,10 +22,8 @@
 *color15:  		base15 
 
 URxvt.font:		xft:FantasqueSansMono Nerd Font Mono:size=10
-URxvt.linespace:	0
-URxvt.letterSpace:	-1
 URxvt.scrollBar:	false
-URxvt.internalBorder:	15
+URxvt.internalBorder:	25
 URxvt.cursorUnderline:	false
 
 !URxvt.perl-ext-common:	default
@@ -59,7 +36,7 @@ rofi.color-normal:	basebg, basefg, base0, base1, basefg
 !rofi.color-active:	base3, base15, base0, base0, base3
 !rofi.color-urgent:	base0, base3, base0, base0, base3
 
-rofi.bw:		0
+rofi.bw:		5
 rofi.font:		FantasqueSansMono Nerd Font 10
 rofi.columns:		1
 rofi.separator-style:	none
@@ -82,13 +59,11 @@ Xft.dpi:		110
 
 !2bwm
 !-------------------------------
-!twobwm.border_width:		5
-!twobwm.outer_border:		5
-!twobwm.focus_color:		base0
-!twobwm.unfocus_color:		base7
-!twobwm.fixed_color:		basebg
-!twobwm.unkill_color:		base8
-!twobwm.fixed_unkill_color:	base12
-!twobwm.outer_border_color:	base2
-!twobwm.inverted_colors:		true	
+twobwm.border_width:		5
+twobwm.outer_border:		5
+twobwm.focus_color:		basefg
+twobwm.unfocus_color:		basebg
+twobwm.fixed_color:		base4
+twobwm.unkill_color:		base5
+twobwm.fixed_unkill_color:	base6
 
