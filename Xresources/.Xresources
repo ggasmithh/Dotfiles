@@ -1,3 +1,24 @@
+!Colors
+#define basefg #999999
+#define basebg #000000
+
+#define base0 #303030
+#define base1 #999999
+#define base2 #b3b3b3
+#define base3 #e6e6e6
+#define base4 #8c0000
+#define base5 #990000
+#define base6 #cc0000
+#define base7 #ff0000
+#define base8 base0
+#define base9 base1
+#define base10 base2
+#define base11 base3
+#define base12 base4
+#define base13 base5
+#define base14 base6
+#define base15 base7
+
 !URxvt
 !------------------------------------
 *foreground:		basefg
